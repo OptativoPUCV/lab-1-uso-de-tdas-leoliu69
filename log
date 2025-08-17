@@ -19,3 +19,9 @@ Sun, Aug 17, 2025  6:16:06 PM:
  tests:  1|4
 total_score: 10/70
 e8651b7
+Sun, Aug 17, 2025  6:18:53 PM: 
+ exercises.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+ tests:  2|3
+total_score: 20/70
+3e7f7d5

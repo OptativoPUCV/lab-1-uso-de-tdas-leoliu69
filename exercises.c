@@ -98,6 +98,12 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
+   int *numero = (int*)top(P1);
+   while(numero != NULL) {
+        push(P2, numero);
+        pop(P1);  
+        numero = (int*)top(P1);  
+    }
 }
 
 /*
